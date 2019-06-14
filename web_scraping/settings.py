@@ -3,6 +3,8 @@ import re
 URL = 'http://compras.dados.gov.br/materiais/v1/materiais.html'
 
 DATABASE_CONN = 'mongodb+srv://{user}:{password}@cluster0-1gfrp.gcp.mongodb.net/test?retryWrites=true&w=majority'
+DATABASE = 'inventory'
+COLLECTION = 'materials'
 
 attributes_properties = {
     'Código do Item': {
